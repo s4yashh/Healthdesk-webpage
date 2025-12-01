@@ -96,26 +96,7 @@ const NutritionSection = (): JSX.Element => {
           </div>
         </div>
 
-        <div className={styles.bestSellersSection}>
-          <h2 className={styles.bestSellersTitle}>Our Best Sellers</h2>
-          <p className={styles.bestSellersDescription}>
-            Formulated with science-backed all-natural ingredients, our unique supplements support holistic health, healing & wellness.
-          </p>
-          <div className={styles.features}>
-            <div className={styles.feature}>
-              <span className={styles.featureName}>Results-Driven</span>
-            </div>
-            <div className={styles.feature}>
-              <span className={styles.featureName}>All-Natural</span>
-            </div>
-            <div className={styles.feature}>
-              <span className={styles.featureName}>Non-GMO</span>
-            </div>
-            <div className={styles.feature}>
-              <span className={styles.featureName}>Cruelty-free</span>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );
