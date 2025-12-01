@@ -11,11 +11,11 @@ interface Charity {
 
 const CharitableInitiatives = (): JSX.Element => {
   const charities: Charity[] = [
-    { id: 1, name: 'Prostate Cancer Foundation', logo: '/images/icons/charity1.png' },
-    { id: 2, name: 'American Tinnitus', logo: '/images/icons/charity2.png' },
-    { id: 3, name: 'U.S. Pain Foundation', logo: '/images/icons/charity3.png' },
-    { id: 4, name: 'American Diabetes Association', logo: '/images/icons/charity4.png' },
-    { id: 5, name: 'American Heart Association', logo: '/images/icons/charity5.png' }
+    { id: 1, name: 'Prostate Cancer Foundation', logo: '/images/icons/prostatecancer.png' },
+    { id: 2, name: 'American Tinnitus', logo: '/images/icons/americantinnitus.png' },
+    { id: 3, name: 'U.S. Pain Foundation', logo: '/images/icons/uspain.png' },
+    { id: 4, name: 'American Diabetes Association', logo: '/images/icons/americandiabetes.png' },
+    { id: 5, name: 'American Heart Association', logo: '/images/icons/americanheart.png' }
   ];
 
   return (

@@ -17,7 +17,7 @@ const Testimonials = (): JSX.Element => {
     {
       id: 1,
       productName: 'TestoBites',
-      productImage: '/images/products/testobites.png',
+      productImage: '/images/products/prostazen.png',
       rating: 5,
       text: 'TestoBites has been a game changer when it comes to my stamina and energy levels. I can truly feel a difference in my sex drive and virility as well. Highly recommended.',
       customerName: '- Ryan R.'
