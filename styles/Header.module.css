@@ -28,6 +28,11 @@
   cursor: pointer;
 }
 
+.logoImage {
+  width: 100px;
+  height: 78px;
+}
+
 .logoIcon {
   display: flex;
   align-items: center;
@@ -101,6 +106,21 @@
 .newsletterBtn svg {
   width: 20px;
   height: 20px;
+}
+
+.contactImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20.39px;
+  height: 21.5px;
+  cursor: pointer;
+}
+
+.contactImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Tablet */

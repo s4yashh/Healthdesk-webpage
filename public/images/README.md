@@ -24,7 +24,7 @@ public/images/
 ### Using Next.js Image Component (Recommended)
 
 ```typescript
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function MyComponent() {
   return (
@@ -42,27 +42,27 @@ export default function MyComponent() {
 ### Using Standard HTML img Tag
 
 ```typescript
-<img 
-  src="/images/hero/doctor.jpg" 
-  alt="Doctor" 
-/>
+<img src="/images/hero/doctor.jpg" alt="Doctor" />
 ```
 
 ## Image Guidelines
 
 ### Hero Images
+
 - **Size**: 1200x800px or larger
 - **Format**: JPG (for photos), PNG (for graphics)
 - **Quality**: High resolution for professional look
 - **Examples**: Doctor photos, banner images
 
 ### Product Images
+
 - **Size**: 500x500px or square aspect ratio
 - **Format**: JPG or PNG with transparency
 - **Quality**: Clear, well-lit product photos
 - **Examples**: Supplement products, bottles
 
 ### Icons
+
 - **Size**: 64x64px to 256x256px
 - **Format**: SVG (vector, scalable) or PNG
 - **Quality**: Crisp, clean icons
@@ -81,6 +81,7 @@ export default function MyComponent() {
 ## Image Optimization
 
 Next.js automatically optimizes images when using the Image component:
+
 - Automatic format conversion (WebP, AVIF)
 - Responsive image serving
 - Lazy loading
