@@ -1,0 +1,161 @@
+.charitableSection {
+  padding: 4rem 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(70, 130, 180, 0.7);
+  z-index: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 1.5rem 0;
+}
+
+.description {
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 0 0 2.5rem 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.charitiesContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.charityLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(1.1);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .charitiesContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .logo {
+    max-width: 120px;
+  }
+}
+
+/* iPad Portrait */
+@media (max-width: 768px) {
+  .charitableSection {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .charitiesContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .charitableSection {
+    padding: 2rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .charitiesContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .logo {
+    max-width: 80px;
+  }
+}

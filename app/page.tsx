@@ -6,6 +6,8 @@ import BrandTrust from "@/components/BrandTrust";
 import NaturalComponents from "@/components/NaturalComponents";
 import ResearchBacked from "@/components/ResearchBacked";
 import EcoConscious from "@/components/EcoConscious";
+import CharitableInitiatives from "@/components/CharitableInitiatives";
+import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
       <NaturalComponents />
       <ResearchBacked />
       <EcoConscious />
+      <CharitableInitiatives />
+      <Testimonials />
       <Footer />
     </main>
   );
