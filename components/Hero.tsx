@@ -22,17 +22,14 @@ const Hero = (): JSX.Element => {
             </p>
             <button className={styles.ctaButton}>Shop Now</button>
           </div>
-
-          <div className={styles.heroImage}>
-            <Image
-              src="/images/hero/doctor.png"
-              alt="Health professional doctor"
-              width={300}
-              height={400}
-              priority
-              className={styles.doctorImage}
-            />
-          </div>
+          <Image
+            src="/images/hero/doctor.png"
+            alt="Health professional doctor"
+            width={892}
+            height={583}
+            priority
+            className={styles.doctorImage}
+          />
         </div>
       </div>
     </section>
