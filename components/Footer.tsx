@@ -45,7 +45,7 @@ const Footer = (): JSX.Element => {
             </div>
 
             <div className={styles.column}>
-              <h3 className={styles.columnTitle}>We're Social</h3>
+              <h3 className={styles.columnTitle}>We&apos;re Social</h3>
               <p className={styles.columnDescription}>Like us, love us, follow us!</p>
             </div>
           </div>
@@ -57,8 +57,8 @@ const Footer = (): JSX.Element => {
         <div className={styles.container}>
           <div className={styles.newsletterWrapper}>
             <div className={styles.newsletterText}>
-              <h2 className={styles.newsletterTitle}>Let's Grow Together</h2>
-              <p className={styles.newsletterSubtitle}>We'll keep it simple. Only the news and updates you need.</p>
+              <h2 className={styles.newsletterTitle}>Let&apos;s Grow Together</h2>
+              <p className={styles.newsletterSubtitle}>We&apos;ll keep it simple. Only the news and updates you need.</p>
             </div>
             <form className={styles.newsletterForm}>
               <input
