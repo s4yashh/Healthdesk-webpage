@@ -33,37 +33,10 @@
   height: 78px;
 }
 
-.logoIcon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-}
-
-.logoIcon svg {
-  width: 100%;
-  height: 100%;
-}
-
 .logoText {
   display: flex;
   flex-direction: column;
   line-height: 1.2;
-}
-
-.mainText {
-  font-weight: 700;
-  font-size: 0.875rem;
-  letter-spacing: 0.5px;
-  color: #0066cc;
-}
-
-.subText {
-  font-weight: 500;
-  font-size: 0.75rem;
-  color: #0066cc;
-  opacity: 0.8;
 }
 
 .navLinks {
@@ -91,28 +64,6 @@
 .navLink:hover {
   border-bottom-color: #0066cc;
   color: #0066cc;
-}
-
-.newsletterBtn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background-color: transparent;
-  color: #0066cc;
-  border-radius: 50%;
-  padding: 0;
-  transition: background-color 0.3s ease;
-}
-
-.newsletterBtn:hover {
-  background-color: #f0f4ff;
-}
-
-.newsletterBtn svg {
-  width: 20px;
-  height: 20px;
 }
 
 .contactImage {
