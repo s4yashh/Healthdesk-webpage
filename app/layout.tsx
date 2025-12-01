@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   keywords:
     "supplements, health, wellness, natural, organic, nutrition",
   authors: [{ name: "Health Desk Clinic" }],
+  icons: {
+    icon: "/images/hero/image.png",
+  },
   openGraph: {
     title: "Health Desk Clinic",
     description: "All Natural Supplements for Your Complete Well-Being",
