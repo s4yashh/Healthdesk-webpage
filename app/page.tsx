@@ -4,6 +4,8 @@ import NutritionSection from "@/components/NutritionSection";
 import BestSellers from "@/components/BestSellers";
 import BrandTrust from "@/components/BrandTrust";
 import NaturalComponents from "@/components/NaturalComponents";
+import ResearchBacked from "@/components/ResearchBacked";
+import EcoConscious from "@/components/EcoConscious";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
       <BestSellers />
       <BrandTrust />
       <NaturalComponents />
+      <ResearchBacked />
+      <EcoConscious />
       <Footer />
     </main>
   );

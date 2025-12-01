@@ -1,0 +1,156 @@
+.researchBackedSection {
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.8;
+  margin: 1rem 0;
+}
+
+.learnMoreButton {
+  align-self: flex-start;
+  padding: 0.75rem 2rem;
+  background-color: transparent;
+  color: #1A69BE;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #1A69BE;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.learnMoreButton:hover {
+  background-color: #1A69BE;
+  color: #ffffff;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.labImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .contentWrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .labImage {
+    max-width: 350px;
+  }
+}
+
+/* iPad Portrait */
+@media (max-width: 768px) {
+  .researchBackedSection {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .labImage {
+    max-width: 300px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .researchBackedSection {
+    padding: 2rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .labImage {
+    max-width: 250px;
+  }
+
+  .learnMoreButton {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
